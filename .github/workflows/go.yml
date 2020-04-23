@@ -1,10 +1,6 @@
 name: BuildandTest
 
-on:
-  push:
-    branches: [ telemetry-netconf ]
-  pull_request:
-    branches: [ telemetry-netconf ]
+on: push
 
 jobs:
 
